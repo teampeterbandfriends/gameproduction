@@ -611,3 +611,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.06.17-10.38.12:546][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.06.17-10.38.52:512][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
 [2019.06.17-10.38.53:915][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.06.17-10.41.25:097][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
