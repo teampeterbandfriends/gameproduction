@@ -628,3 +628,91 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.06.19-10.59.20:719][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.06.19-11.01.44:187][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
 [2019.06.19-11.01.44:418][437]LogSavePackage: Moving '../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/ThirdPersonExampleMapD1CF7A7E41DBC191D65B5CB2241FC0C0.tmp' to '../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.06.19-11.03.05:704][378]LogLinker: Warning: Can't find file '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData'
+[2019.06.19-11.03.05:704][378]LogLinker: Warning: Can't find file for asset '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData' while loading NULL.
+[2019.06.19-11.03.05:706][378]LogLinker: Warning: Can't find file '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData'
+[2019.06.19-11.03.05:707][378]LogLinker: Warning: Can't find file for asset '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData' while loading NULL.
+[2019.06.19-11.03.05:738][378]LogLinker: Warning: Can't find file '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData'
+[2019.06.19-11.03.05:739][378]LogLinker: Warning: Can't find file for asset '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData' while loading NULL.
+[2019.06.19-11.03.05:739][378]LogLinker: Warning: Can't find file '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData'
+[2019.06.19-11.03.05:739][378]LogLinker: Warning: Can't find file for asset '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData' while loading NULL.
+[2019.06.19-11.03.05:750][378]LogLinker: Warning: Can't find file '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData'
+[2019.06.19-11.03.05:750][378]LoadErrors: Failed to load /Game/_MyContent/Maps/PeterBormannLevel_BuiltData.PeterBormannLevel_BuiltData Referenced by PersistentLevel
+[2019.06.19-11.03.05:750][378]LogLinker: Warning: Can't find file for asset '/Game/_MyContent/Maps/PeterBormannLevel_BuiltData' while loading NULL.
+[2019.06.19-11.03.05:753][378]LogAIModule: Creating AISystem for world PeterBormannLevel
+[2019.06.19-11.03.20:930][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.06.19-11.03.21:029][283]LogAIModule: Creating AISystem for world DeklansLevel
+[2019.06.19-11.03.23:718][437]LogAssetEditorManager: Opening Asset editor for World /Game/_MyContent/Maps/DeklansLevel.DeklansLevel
+[2019.06.19-11.03.23:749][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.06.19-11.03.25:359][437]LogSlate: Window 'Save Content' being destroyed
+[2019.06.19-11.03.25:413][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.06.19-11.03.25:553][437]LogSavePackage: Moving '../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/DeklansLevelED22838A4BFB6DF440B64F9A8D00235A.tmp' to '../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/DeklansLevel.umap'
+[2019.06.19-11.03.25:563][437]LogFileHelpers: Saving map 'DeklansLevel' took 0.195
+[2019.06.19-11.03.25:566][437]Cmd: MAP LOAD FILE="../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/DeklansLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.19-11.03.25:566][437]LightingResults: New page: Lighting Build
+[2019.06.19-11.03.25:567][437]LoadErrors: New page: Loading map: DeklansLevel.umap
+[2019.06.19-11.03.25:569][437]MapCheck: New page: Map Check
+[2019.06.19-11.03.25:569][437]LightingResults: New page: Lighting Build
+[2019.06.19-11.03.25:594][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.06.19-11.03.25:618][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.06.19-11.03.25:645][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.06.19-11.03.25:652][437]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.19-11.03.25:679][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.06.19-11.03.25:719][437]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.19-11.03.25:720][437]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.162ms to complete.
+[2019.06.19-11.03.25:721][437]LogFileHelpers: Loading map 'DeklansLevel' took 0.156
+[2019.06.19-11.03.25:787][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.06.19-11.03.52:707][ 31]MapCheck: New page: Map Check
+[2019.06.19-11.03.52:727][ 31]Cmd: MAP REBUILD ALLVISIBLE
+[2019.06.19-11.03.52:728][ 31]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.06.19-11.03.52:771][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.06.19-11.03.52:788][ 31]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.19-11.03.52:812][ 31]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.19-11.03.53:858][ 31]TextureStreamingBuild: Display: Compiling optional shaders took 1.081 seconds.
+[2019.06.19-11.03.53:884][ 31]LogLevel: Display: Export Material TexCoord Scales took 0.026 seconds.
+[2019.06.19-11.03.53:897][ 31]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
+[2019.06.19-11.03.53:928][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.06.19-11.03.53:932][ 31]LightingResults: New page: Lighting Build - 20 Jun 2019 6:03:53 am
+[2019.06.19-11.03.54:031][ 31]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.06.19-11.03.54:220][ 31]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.06.19-11.03.54:249][ 31]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.06.19-11.03.55:332][ 31]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.06.19-11.03.55:332][ 31]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10748
+[2019.06.19-11.03.58:533][ 31]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.06.19-11.03.58:534][ 31]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.06.19-11.03.58:534][ 31]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.06.19-11.03.58:534][ 31]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.06.19-11.03.58:534][ 31]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.06.19-11.03.58:534][ 31]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.06.19-11.03.58:683][ 31]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.06.19-11.03.58:684][ 31]MapCheck: New page: DeklansLevel - 20 Jun 2019 6:03:58 am
+[2019.06.19-11.03.58:688][ 31]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 4.334ms to complete.
+[2019.06.19-11.03.58:711][ 31]LogEditorBuildUtils: Build time 0:05
+[2019.06.19-11.03.58:727][ 31]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.06.19-11.03.58:748][ 31]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.06.19-11.03.59:940][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.06.19-11.04.02:567][143]Job is a success!
+[2019.06.19-11.04.02:644][144]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2019.06.19-11.04.02:644][144]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.06.19-11.04.02:644][144]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2019.06.19-11.04.02:644][144]LogVolumetricLightmapImport:      Bricks at Level
+[2019.06.19-11.04.02:644][144]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2019.06.19-11.04.02:644][144]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2019.06.19-11.04.02:645][144]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.06.19-11.04.02:720][144]Lightmass on LAPTOP-48DPVNQM: 1.25 sec total, 325 ms importing, 75 ms setup, 177 ms photons, 617 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.43 sec total, 381 ms processing.
+[2019.06.19-11.04.02:725][144]LogStaticLightingSystem: DeklansLevel_BuiltData storing lightmap data for 2 meshes in 1 LightmapResourceClusters (2.0 Meshes per cluster).
+[2019.06.19-11.04.02:757][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.06.19-11.04.02:768][144]LogStaticLightingSystem: Illumination: 8.81 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.06.19-11.04.02:768][144]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.06.19-11.04.02:768][144]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.06.19-11.04.03:553][144]DumpUnbuiltLightIteractions
+[2019.06.19-11.04.03:553][144]Lights with unbuilt interactions: 0
+[2019.06.19-11.04.03:553][144]
+[2019.06.19-11.04.03:553][144]Primitives with unbuilt interactions: 0
+[2019.06.19-11.04.03:869][145]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.06.19-11.04.03:869][145]MapCheck: New page: DeklansLevel - 20 Jun 2019 6:04:03 am
+[2019.06.19-11.04.03:869][145]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.449ms to complete.
+[2019.06.19-11.04.09:319][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.19-11.05.55:269][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.06.19-11.05.55:408][803]LogSavePackage: Moving '../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/DeklansLevel246B5EF846A1A6B3F4D5F9B0888FDCBC.tmp' to '../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/DeklansLevel.umap'
+[2019.06.19-11.05.55:469][803]LogSavePackage: Moving '../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/DeklansLevel_BuiltData765A13CC4EE2E440B0BE358BCE462A2E.tmp' to '../../../../../../Users/Shezjust/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/DeklansLevel_BuiltData.uasset'
