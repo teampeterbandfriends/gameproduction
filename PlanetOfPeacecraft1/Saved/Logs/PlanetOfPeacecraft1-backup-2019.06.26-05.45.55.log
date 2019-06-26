@@ -1,0 +1,1411 @@
+﻿Log file open, 06/25/19 22:51:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PlanetOfPeacecraft1
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.174218
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-6574378
+LogInit: Engine Version: 4.22.2-6574378+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 7 (Service Pack 1), CPU:        Intel(R) Core(TM) i5-2500K CPU @ 3.30GHz, GPU: AMD Radeon HD 6900 Series
+LogInit: Compiled (64-bit): May 20 2019 09:54:56
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=WashedUpRat -epicuserid=3df8b8f6330048c0bf61974b1481f60f -epiclocale=en-AU
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.06.25-13.21.25:082][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.25-13.21.25:082][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.06.25-13.21.25:082][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.06.25-13.21.25:088][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.25-13.21.25:089][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.25-13.21.25:090][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.25-13.21.25:090][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.25-13.21.25:090][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.25-13.21.25:102][  0]LogHAL: Display: Platform has ~ 8 GB [8498360320 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.06.25-13.21.25:102][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.25-13.21.25:102][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.25-13.21.25:102][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.06.25-13.21.25:103][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.06.25-13.21.25:104][  0]LogInit: Computer: JACKFEB19
+[2019.06.25-13.21.25:104][  0]LogInit: User: jack
+[2019.06.25-13.21.25:104][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.25-13.21.25:104][  0]LogInit: High frequency timer resolution =3.215380 MHz
+[2019.06.25-13.21.25:104][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.06.25-13.21.25:104][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.25-13.21.25:104][  0]LogMemory: Process Physical Memory: 98.66 MB used, 98.66 MB peak
+[2019.06.25-13.21.25:104][  0]LogMemory: Process Virtual Memory: 93.07 MB used, 93.07 MB peak
+[2019.06.25-13.21.25:104][  0]LogMemory: Physical Memory: 4187.05 MB used,  3917.62 MB free, 8104.67 MB total
+[2019.06.25-13.21.25:104][  0]LogMemory: Virtual Memory: 504.00 MB used,  8388104.00 MB free, 8388608.00 MB total
+[2019.06.25-13.21.25:134][  0]LogInit: Using OS detected language (en-AU).
+[2019.06.25-13.21.25:134][  0]LogInit: Using OS detected locale (en-AU).
+[2019.06.25-13.21.25:135][  0]LogTextLocalizationManager: No specific localization for 'en-AU' exists, so the 'en' localization will be used.
+[2019.06.25-13.21.25:301][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.06.25-13.21.25:301][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.06.25-13.21.25:301][  0]LogInit: Setting process to DPI aware
+[2019.06.25-13.21.25:331][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.25-13.21.25:331][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.25-13.21.25:541][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.25-13.21.25:541][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.25-13.21.25:550][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6900 Series' (Feature Level 11_0)
+[2019.06.25-13.21.25:550][  0]LogD3D11RHI:       1008/0/3796 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.06.25-13.21.25:553][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2019.06.25-13.21.25:553][  0]LogD3D11RHI:       64/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.06.25-13.21.25:553][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.25-13.21.25:558][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.25-13.21.25:559][  0]LogD3D11RHI:     GPU DeviceId: 0x6719 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.25-13.21.25:559][  0]LogWindows: EnumDisplayDevices:
+[2019.06.25-13.21.25:559][  0]LogWindows:    0. 'AMD Radeon HD 6900 Series' (P:1 D:1)
+[2019.06.25-13.21.25:559][  0]LogWindows:    1. 'AMD Radeon HD 6900 Series' (P:0 D:0)
+[2019.06.25-13.21.25:559][  0]LogWindows:    2. 'AMD Radeon HD 6900 Series' (P:0 D:0)
+[2019.06.25-13.21.25:560][  0]LogWindows:    3. 'AMD Radeon HD 6900 Series' (P:0 D:0)
+[2019.06.25-13.21.25:560][  0]LogWindows:    4. 'AMD Radeon HD 6900 Series' (P:0 D:0)
+[2019.06.25-13.21.25:560][  0]LogWindows:    5. 'AMD Radeon HD 6900 Series' (P:0 D:0)
+[2019.06.25-13.21.25:561][  0]LogWindows:    6. 'Intel(R) HD Graphics 3000' (P:0 D:1)
+[2019.06.25-13.21.25:561][  0]LogWindows:    7. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2019.06.25-13.21.25:561][  0]LogWindows:    8. 'RDPDD Chained DD' (P:0 D:0)
+[2019.06.25-13.21.25:561][  0]LogWindows:    9. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.06.25-13.21.25:561][  0]LogWindows:    10. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.06.25-13.21.25:561][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2019.06.25-13.21.25:561][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6900 Series
+[2019.06.25-13.21.25:562][  0]LogD3D11RHI:   Driver Version: 15.200.1062.1004 (internal:15.200.1062.1004, unified:15.200.1062.1004)
+[2019.06.25-13.21.25:562][  0]LogD3D11RHI:      Driver Date: 8-3-2015
+[2019.06.25-13.21.25:562][  0]LogRHI: Texture pool is 706 MB (70% of 1008 MB)
+[2019.06.25-13.21.25:630][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2019.06.25-13.21.25:637][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.25-13.21.25:643][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.25-13.21.25:643][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.25-13.21.25:643][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.25-13.21.25:650][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2019.06.25-13.21.25:919][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.06.25-13.21.25:935][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.06.25-13.21.25:951][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.06.25-13.21.25:967][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.06.25-13.21.25:983][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.06.25-13.21.25:999][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.06.25-13.21.26:015][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.06.25-13.21.26:031][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.06.25-13.21.26:039][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.06.25-13.21.26:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.06.25-13.21.26:132][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.06.25-13.21.26:183][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.06.25-13.21.26:183][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.06.25-13.21.26:211][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.06.25-13.21.26:211][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.06.25-13.21.26:225][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.06.25-13.21.26:239][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.06.25-13.21.26:253][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.06.25-13.21.26:269][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.06.25-13.21.26:324][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.06.25-13.21.26:324][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.06.25-13.21.26:325][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.25-13.21.26:334][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.06.25-13.21.26:389][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Intermediate/Shaders/WorkingDirectory/6696/).
+[2019.06.25-13.21.26:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jack/AppData/Local/Temp/UnrealShaderWorkingDir/B3EAC43B439F3BD3527D4FA9545BA018/'.
+[2019.06.25-13.21.26:392][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.25-13.21.26:392][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.25-13.21.26:392][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.25-13.21.27:051][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.25-13.21.27:115][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/jack/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.25-13.21.27:115][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jack/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.06.25-13.21.27:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.25-13.21.27:115][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.25-13.21.27:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.25-13.21.27:115][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.25-13.21.27:131][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.25-13.21.27:131][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.25-13.21.27:131][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.25-13.21.27:142][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jack/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.25-13.21.27:142][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.25-13.21.27:142][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.25-13.21.27:169][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.25-13.21.27:171][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.25-13.21.27:171][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.25-13.21.27:269][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2019.06.25-13.21.27:681][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.25-13.21.27:762][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.25-13.21.27:762][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.06.25-13.21.27:762][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.25-13.21.27:762][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.06.25-13.21.27:762][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.06.25-13.21.27:876][  0]LogNetVersion: PlanetOfPeacecraft1 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 299048392)
+[2019.06.25-13.21.28:424][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.034532 seconds
+[2019.06.25-13.21.28:432][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.06.25-13.21.28:432][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.06.25-13.21.28:432][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.25-13.21.29:428][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.25-13.21.29:440][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.25-13.21.29:564][  0]SourceControl: Source control is disabled
+[2019.06.25-13.21.29:564][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:564][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.06.25-13.21.29:564][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:564][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.06.25-13.21.29:564][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:564][  0]LogWindows: Warning: URL: C:\Users\jack\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.06.25-13.21.29:564][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:564][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.06.25-13.21.29:565][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:565][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.06.25-13.21.29:565][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:565][  0]LogWindows: Warning: URL: C:\Users\jack\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.06.25-13.21.29:565][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:565][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.06.25-13.21.29:568][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:568][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.06.25-13.21.29:568][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:568][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: URL: C:\Users\jack\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: URL: C:\Users\jack\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:569][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.06.25-13.21.29:570][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:570][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: URL: C:\Users\jack\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: URL: C:\Users\jack\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.29:571][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.06.25-13.21.29:653][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.25-13.21.29:762][  0]LogOcInput: OculusInput pre-init called
+[2019.06.25-13.21.30:592][  0]LogEngine: Initializing Engine...
+[2019.06.25-13.21.30:593][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.25-13.21.30:594][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.06.25-13.21.30:868][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.25-13.21.30:883][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.25-13.21.30:905][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.25-13.21.30:956][  0]LogInit: FAudioDevice initialized.
+[2019.06.25-13.21.30:956][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.25-13.21.31:199][  0]LogDerivedDataCache: Saved boot cache 0.24s 71MB C:/Users/jack/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.25-13.21.31:208][  0]LogInit: Texture streaming: Enabled
+[2019.06.25-13.21.31:240][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.25-13.21.31:268][  0]LogInit: Transaction tracking system initialized
+[2019.06.25-13.21.31:308][  0]BlueprintLog: New page: Editor Load
+[2019.06.25-13.21.31:400][  0]LocalizationService: Localization service is disabled
+[2019.06.25-13.21.31:780][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/' took 0.01s
+[2019.06.25-13.21.31:780][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.25-13.21.31:781][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: URL: C:\Users\jack\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.31:994][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.06.25-13.21.31:995][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.31:995][  0]LogWindows: Warning: URL: C:\Users\jack\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.06.25-13.21.31:995][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.06.25-13.21.31:995][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.06.25-13.21.31:995][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.25-13.21.31:995][  0]LightingResults: New page: Lighting Build
+[2019.06.25-13.21.31:998][  0]MapCheck: New page: Map Check
+[2019.06.25-13.21.31:998][  0]LightingResults: New page: Lighting Build
+[2019.06.25-13.21.32:023][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2019.06.25-13.21.32:518][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.06.25-13.21.32:535][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_MyContent/Maps/JackLevel) is flushing async loading
+[2019.06.25-13.21.32:535][  0]LogStreaming: Display: Flushing async loaders.
+[2019.06.25-13.21.32:591][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.25-13.21.32:622][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.06.25-13.21.32:622][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.25-13.21.32:622][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.22ms to complete.
+[2019.06.25-13.21.32:622][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.627
+[2019.06.25-13.21.32:745][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.21.32:756][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.21.32:766][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.21.32:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.21.32:785][  0]LogCollectionManager: Loaded 0 collections in 0.002641 seconds
+[2019.06.25-13.21.32:810][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Collections/' took 0.01s
+[2019.06.25-13.21.32:810][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/Developers/jack/Collections/' took 0.01s
+[2019.06.25-13.21.32:810][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/Collections/' took 0.00s
+[2019.06.25-13.21.32:810][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.25-13.21.32:821][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2732 classes and 659 folders.
+[2019.06.25-13.21.32:830][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.25-13.21.32:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:837][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:837][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:838][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:838][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:840][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:840][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:842][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:843][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:843][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:845][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.25-13.21.32:896][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.25-13.21.32:902][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.06.25-13.21.32:979][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.25-13.21.32:983][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.25-13.21.32:987][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.25-13.21.33:062][  0]LogRenderer: Reallocating scene render targets to support 860x500 Format 10 NumSamples 1 (Frame:1).
+[2019.06.25-13.21.33:108][  0]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 6. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2019.06.25-13.21.33:351][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.25-13.21.33:351][  0]LogLoad: (Engine Initialization) Total time: 10.52 seconds
+[2019.06.25-13.21.33:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.25-13.21.33:394][  0]LogAssetRegistry: Asset discovery search completed in 6.1455 seconds
+[2019.06.25-13.21.33:396][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.06.25-13.21.33:396][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2019.06.25-13.21.33:398][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.25-13.21.33:437][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.25-13.21.34:394][ 63]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.25-13.21.35:788][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.25-13.21.38:527][424]LogAssetEditorManager: Opening Asset editor for World /Game/_MyContent/Maps/JackLevel.JackLevel
+[2019.06.25-13.21.38:552][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.06.25-13.21.38:553][424]Cmd: MAP LOAD FILE="../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/JackLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.25-13.21.38:553][424]LightingResults: New page: Lighting Build
+[2019.06.25-13.21.38:553][424]LoadErrors: New page: Loading map: JackLevel.umap
+[2019.06.25-13.21.38:565][424]MapCheck: New page: Map Check
+[2019.06.25-13.21.38:565][424]LightingResults: New page: Lighting Build
+[2019.06.25-13.21.38:592][424]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.06.25-13.21.38:592][424]LogAIModule: Creating AISystem for world JackLevel
+[2019.06.25-13.21.38:676][424]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.25-13.21.38:703][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.06.25-13.21.38:732][424]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.25-13.21.38:732][424]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2019.06.25-13.21.38:733][424]LogFileHelpers: Loading map 'JackLevel' took 0.181
+[2019.06.25-13.21.38:786][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.06.25-13.21.40:165][578]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.25-13.21.40:178][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.21.40:178][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.25-13.21.40:179][578]PIE: New page: PIE session: JackLevel (26 Jun 2019 8:21:40 am)
+[2019.06.25-13.21.40:190][578]LogPlayLevel: Creating play world package: /Game/_MyContent/Maps/UEDPIE_0_JackLevel
+[2019.06.25-13.21.40:195][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005447s)
+[2019.06.25-13.21.40:196][578]LogAIModule: Creating AISystem for world JackLevel
+[2019.06.25-13.21.40:196][578]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2019.06.25-13.21.40:196][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_MyContent/Maps/JackLevel.JackLevel to /Game/_MyContent/Maps/UEDPIE_0_JackLevel.JackLevel (0.006423s)
+[2019.06.25-13.21.40:222][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.06.25-13.21.40:229][578]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.25-13.21.40:247][578]LogInit: FAudioDevice initialized.
+[2019.06.25-13.21.40:281][578]LogLoad: Game class is 'BP_GameMode_C'
+[2019.06.25-13.21.40:289][578]LogWorld: Bringing World /Game/_MyContent/Maps/UEDPIE_0_JackLevel.JackLevel up for play (max tick rate 0) at 2019.06.25-22.51.40
+[2019.06.25-13.21.40:291][578]LogWorld: Bringing up level for play took: 0.007135
+[2019.06.25-13.21.40:317][578]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.06.25-13.21.40:320][578]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_MyContent/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode'!
+[2019.06.25-13.21.40:321][578]PIE: Play in editor start time for /Game/_MyContent/Maps/UEDPIE_0_JackLevel 0.868
+[2019.06.25-13.21.40:322][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.21.40:423][579]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.40:923][639]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.41:424][699]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.41:924][759]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.42:924][879]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.43:424][939]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.44:424][ 59]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.45:424][179]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.46:424][299]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.46:674][329]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.46:924][359]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.47:174][389]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.47:674][449]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.47:924][479]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.48:174][509]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.48:424][539]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.48:674][569]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.49:174][629]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.49:424][659]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.49:674][689]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.50:174][749]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.50:424][779]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.50:674][809]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.50:924][839]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.51:174][869]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.51:674][929]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.51:924][959]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.52:174][989]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.52:424][ 19]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.52:674][ 49]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.52:924][ 79]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.53:174][109]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.53:674][169]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.54:424][259]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.54:674][289]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.54:924][319]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.55:174][349]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.55:424][379]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.56:424][499]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.56:674][529]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.56:924][559]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.57:174][589]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.57:424][619]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.57:674][649]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.57:924][679]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.58:174][709]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.58:424][739]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.58:674][769]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.58:925][799]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.59:175][829]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.59:425][859]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.59:675][889]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.21.59:925][919]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.00:175][949]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.00:425][979]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.00:675][  9]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.00:925][ 39]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.01:175][ 69]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.01:425][ 99]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.01:675][129]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.01:925][159]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.02:175][189]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.02:425][219]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.02:675][249]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.02:925][279]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.03:175][309]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.03:425][339]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.03:675][369]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.03:925][399]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.04:425][459]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.04:675][489]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.04:925][519]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.05:175][549]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.05:425][579]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.05:675][609]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.05:925][639]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.06:175][669]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.06:425][699]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.06:675][729]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.06:925][759]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.07:175][789]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.07:425][819]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.08:009][849]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.08:672][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.25-13.22.08:730][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.22.08:731][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.22.08:755][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.25-13.22.08:755][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.22.08:788][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.22.08:791][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2019.06.25-13.22.08:831][861]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.06.25-13.22.13:394][280]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_MyContent/Blueprints/Characters/AICharacter.AICharacter
+[2019.06.25-13.22.13:725][280]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.06.25-13.22.14:853][280]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.25-13.22.16:211][391]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.25-13.22.16:411][415]LogSlate: Window 'AICharacter' being destroyed
+[2019.06.25-13.22.30:841][111]BlueprintLog: New page: Compile AICharacter
+[2019.06.25-13.22.31:093][111]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.06.25-13.22.33:333][358]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.25-13.22.33:356][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.22.33:356][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.25-13.22.33:356][358]PIE: New page: PIE session: JackLevel (26 Jun 2019 8:22:33 am)
+[2019.06.25-13.22.33:356][358]LogPlayLevel: Creating play world package: /Game/_MyContent/Maps/UEDPIE_0_JackLevel
+[2019.06.25-13.22.33:361][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004704s)
+[2019.06.25-13.22.33:361][358]LogAIModule: Creating AISystem for world JackLevel
+[2019.06.25-13.22.33:361][358]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2019.06.25-13.22.33:361][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_MyContent/Maps/JackLevel.JackLevel to /Game/_MyContent/Maps/UEDPIE_0_JackLevel.JackLevel (0.005553s)
+[2019.06.25-13.22.33:398][358]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.06.25-13.22.33:405][358]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.25-13.22.33:423][358]LogInit: FAudioDevice initialized.
+[2019.06.25-13.22.33:448][358]LogLoad: Game class is 'BP_GameMode_C'
+[2019.06.25-13.22.33:451][358]LogWorld: Bringing World /Game/_MyContent/Maps/UEDPIE_0_JackLevel.JackLevel up for play (max tick rate 0) at 2019.06.25-22.52.33
+[2019.06.25-13.22.33:452][358]LogWorld: Bringing up level for play took: 0.003173
+[2019.06.25-13.22.33:465][358]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_MyContent/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode'!
+[2019.06.25-13.22.33:465][358]PIE: Play in editor start time for /Game/_MyContent/Maps/UEDPIE_0_JackLevel 0.012
+[2019.06.25-13.22.33:466][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.22.33:824][393]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.34:325][453]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.34:817][512]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.34:825][513]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.35:317][572]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.35:325][573]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.35:825][633]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.36:317][692]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.36:325][693]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.36:826][753]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.37:317][812]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.37:326][813]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.37:826][873]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.38:326][933]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.38:817][992]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.38:826][993]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.39:318][ 52]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.39:326][ 53]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.39:826][113]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.40:317][172]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.40:326][173]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.40:818][232]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.40:826][233]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.41:326][293]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.41:826][353]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.42:317][412]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.42:326][413]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.42:818][472]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.42:826][473]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.43:318][532]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.43:326][533]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.43:826][593]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.45:092][745]LogBlueprintUserMessages: [BP_MyPlayer_C_0] Hadouken
+[2019.06.25-13.22.45:318][768]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.46:318][888]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.47:318][  8]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.47:826][ 69]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.48:323][126]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.48:331][127]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.48:831][187]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.48:856][190]LogBlueprintUserMessages: [BP_MyPlayer_C_0] Hadouken
+[2019.06.25-13.22.49:323][246]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.50:323][366]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.50:823][426]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.51:323][486]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.52:324][606]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.52:332][607]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.52:832][667]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.53:324][726]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.53:333][727]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.53:957][802]LogBlueprintUserMessages: [BP_MyPlayer_C_0] Hadouken
+[2019.06.25-13.22.54:324][846]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.55:324][966]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.56:324][ 86]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.56:333][ 87]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.56:825][146]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.57:324][206]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.57:833][267]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.58:324][326]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.58:333][327]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.59:324][446]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.59:332][447]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.22.59:833][507]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.00:324][566]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.00:332][567]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.00:832][627]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.01:324][686]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.01:332][687]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.01:832][747]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.02:324][806]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.03:588][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.25-13.23.03:658][848]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.03:667][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.23.03:667][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.23.03:696][849]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.25-13.23.03:696][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.23.03:735][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.23.03:740][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.06.25-13.23.03:775][852]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.06.25-13.23.12:121][814]BlueprintLog: New page: Compile AICharacter
+[2019.06.25-13.23.12:364][814]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2019.06.25-13.23.12:880][853]LogSavePackage: Moving '../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/AICharacter05A131744453C421094C33890E6EFB69.tmp' to '../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Blueprints/Characters/AICharacter.uasset'
+[2019.06.25-13.23.14:146][996]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.25-13.23.14:167][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.23.14:167][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.25-13.23.14:167][996]PIE: New page: PIE session: JackLevel (26 Jun 2019 8:23:14 am)
+[2019.06.25-13.23.14:168][996]LogPlayLevel: Creating play world package: /Game/_MyContent/Maps/UEDPIE_0_JackLevel
+[2019.06.25-13.23.14:173][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005305s)
+[2019.06.25-13.23.14:173][996]LogAIModule: Creating AISystem for world JackLevel
+[2019.06.25-13.23.14:174][996]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2019.06.25-13.23.14:174][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_MyContent/Maps/JackLevel.JackLevel to /Game/_MyContent/Maps/UEDPIE_0_JackLevel.JackLevel (0.006066s)
+[2019.06.25-13.23.14:210][996]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.06.25-13.23.14:217][996]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.25-13.23.14:235][996]LogInit: FAudioDevice initialized.
+[2019.06.25-13.23.14:263][996]LogLoad: Game class is 'BP_GameMode_C'
+[2019.06.25-13.23.14:267][996]LogWorld: Bringing World /Game/_MyContent/Maps/UEDPIE_0_JackLevel.JackLevel up for play (max tick rate 0) at 2019.06.25-22.53.14
+[2019.06.25-13.23.14:269][996]LogWorld: Bringing up level for play took: 0.005021
+[2019.06.25-13.23.14:285][996]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_MyContent/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode'!
+[2019.06.25-13.23.14:285][996]PIE: Play in editor start time for /Game/_MyContent/Maps/UEDPIE_0_JackLevel 0.831
+[2019.06.25-13.23.14:286][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.23.14:378][997]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.14:878][ 57]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.15:378][117]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.15:878][177]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.16:378][237]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.16:884][293]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.17:386][353]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.17:886][413]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.18:385][473]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.18:885][533]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.19:386][593]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.19:543][612]LogBlueprintUserMessages: [BP_MyPlayer_C_0] Hadouken
+[2019.06.25-13.23.19:886][653]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.20:385][713]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.20:886][773]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.21:386][833]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.21:885][893]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.22:385][953]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.22:885][ 13]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.23:385][ 73]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.23:452][ 81]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.23:768][119]LogBlueprintUserMessages: [BP_MyPlayer_C_0] Hadouken
+[2019.06.25-13.23.23:885][133]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.23:952][141]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.24:385][193]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.24:885][253]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.24:952][261]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.25:386][313]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.25:452][321]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.25:885][373]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.25:952][381]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.26:386][433]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.26:453][441]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.26:886][493]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.26:953][501]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.27:386][553]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.27:453][561]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.27:887][613]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.27:953][621]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.28:386][673]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.28:453][681]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.28:886][733]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.28:953][741]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.29:386][793]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.29:453][801]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.29:886][853]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.29:953][861]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.30:386][913]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.30:453][921]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.30:886][973]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.30:953][981]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.31:386][ 33]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.31:453][ 41]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.31:886][ 93]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.31:953][101]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.32:386][153]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.32:453][161]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.32:886][213]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.32:953][221]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.33:386][273]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.33:453][281]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.33:886][333]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.33:953][341]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.34:386][393]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.34:453][401]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.34:886][453]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.34:953][461]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.35:386][513]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.35:453][521]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.35:886][573]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.35:953][581]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.36:386][633]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.36:453][641]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.36:836][687]LogBlueprintUserMessages: [BP_MyPlayer_C_0] Hadouken
+[2019.06.25-13.23.36:886][693]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.36:953][701]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.37:386][753]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.37:453][761]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.37:886][813]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.37:953][821]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.38:386][873]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.38:453][881]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.38:886][933]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.38:953][941]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.39:386][993]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.39:453][  1]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.39:886][ 53]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.39:953][ 61]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.40:386][113]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.40:453][121]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.40:953][181]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.41:386][233]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.41:453][241]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.41:886][293]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.41:953][301]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.42:386][353]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.42:453][361]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.42:886][413]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.42:953][421]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.43:386][473]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.43:453][481]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.43:887][533]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.43:954][541]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.44:387][593]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.44:454][601]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.44:887][653]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.44:954][661]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.45:387][713]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.45:454][721]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.45:887][773]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.45:954][781]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.46:387][833]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.46:387][833]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.46:454][841]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.46:887][893]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.46:954][901]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.47:387][953]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.47:388][953]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.47:454][961]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.47:887][ 13]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.47:888][ 13]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.47:954][ 21]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.48:387][ 73]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.48:454][ 81]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.48:887][133]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.48:887][133]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.48:954][141]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.49:388][193]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.49:454][201]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.49:887][253]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.49:954][261]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.50:078][276]LogBlueprintUserMessages: [BP_MyPlayer_C_0] Hadouken
+[2019.06.25-13.23.50:387][313]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.50:454][321]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.50:887][373]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.50:954][381]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.51:387][433]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.51:454][441]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.51:887][493]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.51:888][493]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.51:954][501]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.52:387][553]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.52:454][561]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.52:887][613]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.52:888][613]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.52:954][621]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.53:387][673]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.53:454][681]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.53:887][733]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.53:887][733]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.53:954][741]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.54:387][793]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.54:454][801]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.54:887][853]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.54:888][853]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.54:954][861]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.55:387][913]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.55:454][921]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.55:887][973]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.55:888][973]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.55:954][981]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.56:387][ 33]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.56:454][ 41]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.56:887][ 93]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.56:887][ 93]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.56:954][101]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.57:387][153]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.57:454][161]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.57:976][184]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.57:977][184]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.57:977][184]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.58:651][186]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.58:651][186]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor BP_MyPlayer_C_0 (if any of these is None then there's your problem
+[2019.06.25-13.23.58:838][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.25-13.23.58:979][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.23.58:979][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.23.59:005][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.25-13.23.59:005][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
+[2019.06.25-13.23.59:045][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.25-13.23.59:051][187]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.06.25-13.23.59:085][190]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.06.25-13.24.09:204][376]LogSavePackage: Moving '../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/AICharacter9F9400344308F591973846B16C71BE8C.tmp' to '../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Blueprints/Characters/AICharacter.uasset'
+[2019.06.25-13.24.33:646][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.06.25-13.24.33:750][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.06.25-13.24.33:965][189]LogSavePackage: Moving '../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/JackLevel63DFCEEE4736EE24AB5DB6BDC2EC80A9.tmp' to '../../../../../../Users/jack/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/JackLevel.umap'
+[2019.06.25-13.24.34:007][189]LogFileHelpers: Saving map 'JackLevel' took 0.337
+[2019.06.25-13.24.35:442][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.06.25-13.24.35:568][348]LogSlate: Window 'PlanetOfPeacecraft1 - Unreal Editor' being destroyed
+[2019.06.25-13.24.35:750][349]Cmd: QUIT_EDITOR
+[2019.06.25-13.24.35:780][349]LogExit: Preparing to exit.
+[2019.06.25-13.24.36:525][349]LogExit: Editor shut down
+[2019.06.25-13.24.36:525][349]LogExit: Transaction tracking system shut down
+[2019.06.25-13.24.36:738][349]LogExit: Object subsystem successfully closed.
+[2019.06.25-13.24.36:748][349]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.06.25-13.24.36:752][349]LogD3D11RHI: Shutdown
+[2019.06.25-13.24.36:752][349]LogD3D11RHI: CleanupD3DDevice
+[2019.06.25-13.24.36:752][349]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.06.25-13.24.36:752][349]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.06.25-13.24.36:752][349]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.06.25-13.24.36:752][349]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.06.25-13.24.36:752][349]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.06.25-13.24.36:752][349]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.06.25-13.24.36:841][349]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.06.25-13.24.36:860][349]LogModuleManager: Shutting down and abandoning module BlueprintGraph (648)
+[2019.06.25-13.24.36:860][349]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (646)
+[2019.06.25-13.24.36:860][349]LogModuleManager: Shutting down and abandoning module Voice (644)
+[2019.06.25-13.24.36:860][349]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (642)
+[2019.06.25-13.24.36:860][349]LogModuleManager: Shutting down and abandoning module SceneOutliner (640)
+[2019.06.25-13.24.36:860][349]LogModuleManager: Shutting down and abandoning module AddContentDialog (638)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module WidgetCarousel (637)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module EditorWidgets (634)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module CollectionManager (632)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module StatsViewer (630)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module FoliageEdit (628)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module LandscapeEditor (626)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module MeshPaintMode (624)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (622)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module ActorPickerMode (620)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module GeometryMode (618)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module TextureAlignMode (616)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module BspMode (614)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (612)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (610)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module AutomationWorker (608)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module OculusMR (606)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (604)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (602)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (600)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module PlacementMode (599)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module MaterialEditor (598)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (594)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (592)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (590)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (588)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (586)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module WebMMedia (584)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (582)
+[2019.06.25-13.24.36:861][349]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (580)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (576)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (574)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (572)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (570)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (568)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (566)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (564)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (562)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (560)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (558)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (556)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module CharacterAI (554)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module SmartSnapping (552)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module SessionServices (550)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module MeshPaint (548)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module ViewportSnapping (546)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module ViewportInteraction (544)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module ClothPainter (542)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (541)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module LogVisualizer (538)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module IntroTutorials (536)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (535)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (532)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (530)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (528)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (526)
+[2019.06.25-13.24.36:862][349]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (525)
+[2019.06.25-13.24.37:500][349]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (522)
+[2019.06.25-13.24.37:500][349]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (520)
+[2019.06.25-13.24.37:500][349]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (518)
+[2019.06.25-13.24.37:500][349]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (516)
+[2019.06.25-13.24.37:500][349]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (514)
+[2019.06.25-13.24.37:500][349]LogModuleManager: Shutting down and abandoning module InputBindingEditor (512)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module MergeActors (510)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (508)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module LocalizationService (507)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module HardwareTargeting (504)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (502)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module UndoHistory (500)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module XmlParser (498)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module Blutility (496)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (494)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (493)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (490)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module SettingsEditor (488)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module ProjectLauncher (486)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module SessionFrontend (484)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module ProfilerClient (482)
+[2019.06.25-13.24.37:501][349]LogModuleManager: Shutting down and abandoning module DeviceManager (480)
+[2019.06.25-13.24.37:502][349]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (479)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module AutomationController (476)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module AutomationWindow (474)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module Layers (472)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (470)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module DetailCustomizations (468)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module PackagesDialog (466)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (464)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module Persona (462)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
+[2019.06.25-13.24.37:542][349]LogModuleManager: Shutting down and abandoning module Kismet (456)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module Toolbox (450)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.06.25-13.24.37:551][349]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2019.06.25-13.24.37:552][349]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (408)
+[2019.06.25-13.24.37:557][349]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module OculusEditor (396)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (368)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (366)
+[2019.06.25-13.24.37:698][349]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (364)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (352)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module AppleImageUtils (350)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module AlembicImporter (348)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module AlembicLibrary (347)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module GeometryCache (346)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (345)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module VariantManagerContent (340)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (338)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (336)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module PluginBrowser (334)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (332)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (330)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.06.25-13.24.37:699][349]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (308)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (306)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (304)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.06.25-13.24.37:700][349]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.06.25-13.24.37:800][349]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.06.25-13.24.37:900][349]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.06.25-13.24.37:900][349]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.06.25-13.24.37:901][349]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.06.25-13.24.37:902][349]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.06.25-13.24.37:902][349]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.06.25-13.24.37:902][349]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.06.25-13.24.37:902][349]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.06.25-13.24.37:903][349]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.06.25-13.24.37:905][349]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.06.25-13.24.37:906][349]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.06.25-13.24.37:906][349]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.06.25-13.24.37:906][349]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.06.25-13.24.37:906][349]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.06.25-13.24.37:906][349]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.06.25-13.24.37:906][349]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.06.25-13.24.37:906][349]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.06.25-13.24.37:908][349]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.06.25-13.24.37:908][349]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.06.25-13.24.37:908][349]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.06.25-13.24.37:908][349]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.06.25-13.24.37:908][349]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.06.25-13.24.37:908][349]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.06.25-13.24.37:909][349]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.06.25-13.24.37:987][349]LogDerivedDataCache: Shutdown
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.06.25-13.24.37:987][349]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.06.25-13.24.37:989][349]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.06.25-13.24.37:989][349]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.06.25-13.24.37:989][349]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.06.25-13.24.37:989][349]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.06.25-13.24.37:989][349]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.06.25-13.24.37:990][349]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.06.25-13.24.37:990][349]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.06.25-13.24.37:994][349]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.06.25-13.24.37:994][349]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.06.25-13.24.38:003][349]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.06.25-13.24.38:004][349]LogHMD: Freeing OpenVRDLLHandle.
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.06.25-13.24.38:004][349]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.06.25-13.24.38:006][349]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.06.25-13.24.38:006][349]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.06.25-13.24.38:028][349]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.06.25-13.24.38:028][349]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.06.25-13.24.38:028][349]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E03D6C5-4420-9D73-FA98-8DB3ACB67083%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.2-6574378%2B%2B%2BUE4%2BRelease-4.22&UserID=8a668a654bc13c214d8e3fa73a15e889%7C3df8b8f6330048c0bf61974b1481f60f%7C5a400456-5821-4a62-aa3d-45b6f0964d74&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.06.25-13.24.38:033][349]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.06.25-13.24.38:035][349]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.06.25-13.24.38:036][349]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.06.25-13.24.38:041][349]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.06.25-13.24.38:041][349]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.06.25-13.24.38:042][349]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.06.25-13.24.38:042][349]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.06.25-13.24.38:043][349]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.06.25-13.24.38:043][349]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.06.25-13.24.38:043][349]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.06.25-13.24.38:043][349]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.06.25-13.24.38:043][349]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.06.25-13.24.38:044][349]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.06.25-13.24.38:049][349]LogExit: Exiting.
+[2019.06.25-13.24.38:079][349]Log file closed, 06/25/19 22:54:38
