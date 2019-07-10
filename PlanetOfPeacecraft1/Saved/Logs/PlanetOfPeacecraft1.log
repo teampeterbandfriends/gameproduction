@@ -1,4 +1,4 @@
-﻿Log file open, 07/10/19 09:46:25
+﻿Log file open, 07/10/19 11:09:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: PlanetOfPeacecraft1
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.958694
+LogStats: Stats thread started at 0.299106
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,534 +156,851 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
-[2019.07.09-23.46.30:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.07.09-23.46.30:938][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.07.09-23.46.30:939][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.07.09-23.46.30:939][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.07.09-23.46.30:939][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.07.09-23.46.30:939][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.07.09-23.46.30:939][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.07.09-23.46.30:939][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.07.09-23.46.30:939][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
-[2019.07.09-23.46.30:939][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
-[2019.07.09-23.46.30:947][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.07.09-23.46.30:947][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.07.09-23.46.30:948][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.07.09-23.46.30:948][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.09-23.46.30:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.07.09-23.46.31:251][  0]LogHAL: Display: Platform has ~ 8 GB [8472207360 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.07.09-23.46.31:251][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.07.09-23.46.31:251][  0]LogInit: Going up to parent DeviceProfile []
-[2019.07.09-23.46.31:251][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.31:251][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.07.09-23.46.31:251][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.07.09-23.46.31:251][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.31:251][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.07.09-23.46.31:252][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.07.09-23.46.31:253][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.07.09-23.46.31:254][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
-[2019.07.09-23.46.31:254][  0]LogInit: Computer: DESKTOP-SNPC36S
-[2019.07.09-23.46.31:254][  0]LogInit: User: RadioRentals
-[2019.07.09-23.46.31:254][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.07.09-23.46.31:254][  0]LogInit: High frequency timer resolution =1.851192 MHz
-[2019.07.09-23.46.31:254][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.07.09-23.46.31:254][  0]LogMemory: Platform Memory Stats for Windows
-[2019.07.09-23.46.31:254][  0]LogMemory: Process Physical Memory: 96.23 MB used, 96.23 MB peak
-[2019.07.09-23.46.31:254][  0]LogMemory: Process Virtual Memory: 83.92 MB used, 83.92 MB peak
-[2019.07.09-23.46.31:254][  0]LogMemory: Physical Memory: 6036.82 MB used,  2042.90 MB free, 8079.73 MB total
-[2019.07.09-23.46.31:254][  0]LogMemory: Virtual Memory: 4641.87 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2019.07.09-23.47.00:029][  0]LogInit: Using OS detected language (en-US).
-[2019.07.09-23.47.00:029][  0]LogInit: Using OS detected locale (en-AU).
-[2019.07.09-23.47.00:033][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.07.09-23.47.00:487][  0]LogInit: Setting process to per monitor DPI aware
-[2019.07.09-23.47.00:594][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.07.09-23.47.00:594][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.07.09-23.47.01:180][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.09-23.47.01:180][  0]LogD3D11RHI: D3D11 adapters:
-[2019.07.09-23.47.01:200][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2019.07.09-23.47.01:200][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.07.09-23.47.01:210][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.07.09-23.47.01:210][  0]LogD3D11RHI:       0/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.07.09-23.47.01:210][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.07.09-23.47.01:236][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.07.09-23.47.01:236][  0]LogD3D11RHI:     GPU DeviceId: 0x412 (for the marketing name, search the web for "GPU Device Id")
-[2019.07.09-23.47.01:236][  0]LogWindows: EnumDisplayDevices:
-[2019.07.09-23.47.01:238][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2019.07.09-23.47.01:247][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.07.09-23.47.01:254][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2019.07.09-23.47.01:254][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
-[2019.07.09-23.47.01:254][  0]LogD3D11RHI:   Driver Version: 20.19.15.4703 (internal:20.19.15.4703, unified:20.19.15.4703)
-[2019.07.09-23.47.01:254][  0]LogD3D11RHI:      Driver Date: 6-9-2017
-[2019.07.09-23.47.01:254][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
-[2019.07.09-23.47.01:271][  0]LogD3D11RHI: Async texture creation enabled
-[2019.07.09-23.47.01:278][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.07.09-23.47.01:280][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.07.09-23.47.01:280][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.07.09-23.47.01:289][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2019.07.09-23.47.05:769][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.07.09-23.47.05:804][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.07.09-23.47.05:836][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.07.09-23.47.05:866][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.07.09-23.47.05:900][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.07.09-23.47.05:936][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.07.09-23.47.05:969][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.07.09-23.47.06:002][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.07.09-23.47.06:020][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.07.09-23.47.06:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.07.09-23.47.06:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.07.09-23.47.06:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.07.09-23.47.06:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.07.09-23.47.06:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.07.09-23.47.06:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.07.09-23.47.06:213][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.07.09-23.47.06:221][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.07.09-23.47.06:302][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.07.09-23.47.06:302][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.07.09-23.47.06:351][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.07.09-23.47.06:351][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.07.09-23.47.06:378][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.07.09-23.47.06:405][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.07.09-23.47.06:432][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.07.09-23.47.06:462][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.07.09-23.47.06:577][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.07.09-23.47.06:577][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.07.09-23.47.06:577][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.07.09-23.47.06:603][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.07.09-23.47.06:781][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Intermediate/Shaders/WorkingDirectory/47924/).
-[2019.07.09-23.47.06:781][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Radio Rentals/AppData/Local/Temp/UnrealShaderWorkingDir/B711DCCE494B57771C2515ADBCED505D/'.
-[2019.07.09-23.47.06:789][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.07.09-23.47.06:789][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.07.09-23.47.06:789][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.07.09-23.47.07:876][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.07.09-23.47.08:052][  0]LogDerivedDataCache: Loaded boot cache 0.18s 71MB C:/Users/Radio Rentals/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.07.09-23.47.08:053][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Radio Rentals/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.07.09-23.47.08:053][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.07.09-23.47.08:053][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.07.09-23.47.08:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.07.09-23.47.08:054][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.07.09-23.47.08:080][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.07.09-23.47.08:081][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.07.09-23.47.08:081][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.07.09-23.47.08:097][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Radio Rentals/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.07.09-23.47.08:097][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.07.09-23.47.08:097][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.07.09-23.47.08:143][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.07.09-23.47.08:147][  0]LogSlate: Using FreeType 2.6.0
-[2019.07.09-23.47.08:149][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.07.09-23.47.08:344][  0]LogAssetRegistry: FAssetRegistry took 0.0476 seconds to start up
-[2019.07.09-23.47.09:208][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.09-23.47.09:554][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.07.09-23.47.09:554][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.07.09-23.47.09:554][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.07.09-23.47.09:554][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.07.09-23.47.09:554][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.07.09-23.47.09:586][  0]LogNetVersion: PlanetOfPeacecraft1 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 299048392)
-[2019.07.09-23.47.11:266][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.940390 seconds
-[2019.07.09-23.47.11:279][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.07.09-23.47.11:280][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.07.09-23.47.11:280][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.07.09-23.47.13:975][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.07.09-23.47.13:992][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.07.09-23.47.14:666][  0]SourceControl: Source control is disabled
-[2019.07.09-23.47.14:963][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:964][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2019.07.09-23.47.14:966][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:966][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2019.07.09-23.47.14:967][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:967][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Programs/Git/cmd/git.exe version
-[2019.07.09-23.47.14:969][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:969][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2019.07.09-23.47.14:970][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:970][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2019.07.09-23.47.14:971][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:971][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2019.07.09-23.47.14:973][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:973][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2019.07.09-23.47.14:981][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:981][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2019.07.09-23.47.14:983][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:983][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2019.07.09-23.47.14:984][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:985][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Programs/Git/cmd/git.exe version
-[2019.07.09-23.47.14:986][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:986][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2019.07.09-23.47.14:987][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:987][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2019.07.09-23.47.14:989][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:989][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2019.07.09-23.47.14:990][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:990][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2019.07.09-23.47.14:997][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:998][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2019.07.09-23.47.14:999][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.14:999][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2019.07.09-23.47.15:000][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.15:000][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Programs/Git/cmd/git.exe version
-[2019.07.09-23.47.15:002][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.15:002][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2019.07.09-23.47.15:003][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.15:003][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2019.07.09-23.47.15:004][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.15:004][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2019.07.09-23.47.15:006][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.15:006][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2019.07.09-23.47.15:478][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.07.09-23.47.16:024][  0]LogOcInput: OculusInput pre-init called
-[2019.07.09-23.47.17:756][  0]LogEngine: Initializing Engine...
-[2019.07.09-23.47.17:759][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.09-23.47.17:763][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2019.07.09-23.47.18:220][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.07.09-23.47.18:281][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.07.09-23.47.18:402][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.09-23.47.18:857][  0]LogInit: FAudioDevice initialized.
-[2019.07.09-23.47.18:858][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.07.09-23.47.20:789][  0]LogDerivedDataCache: Saved boot cache 1.93s 71MB C:/Users/Radio Rentals/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.07.09-23.47.20:806][  0]LogInit: Texture streaming: Enabled
-[2019.07.09-23.47.20:881][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.07.09-23.47.20:991][  0]LogInit: Transaction tracking system initialized
-[2019.07.09-23.47.21:066][  0]BlueprintLog: New page: Editor Load
-[2019.07.09-23.47.21:863][  0]LocalizationService: Localization service is disabled
-[2019.07.09-23.47.22:601][  0]LogTemp: IOS device listing is disabled (to many failed attempts)!
-[2019.07.09-23.47.24:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/' took 0.15s
-[2019.07.09-23.47.24:066][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.07.09-23.47.24:067][  0]LogCook: Display: Mobile HDR setting 1
-[2019.07.09-23.47.25:337][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.25:337][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2019.07.09-23.47.25:338][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.25:338][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2019.07.09-23.47.25:339][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.25:339][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Programs/Git/cmd/git.exe version
-[2019.07.09-23.47.25:341][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.25:341][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2019.07.09-23.47.25:342][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.25:343][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2019.07.09-23.47.25:344][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.25:344][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2019.07.09-23.47.25:345][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2019.07.09-23.47.25:345][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2019.07.09-23.47.25:346][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.07.09-23.47.25:560][  0]LightingResults: New page: Lighting Build
-[2019.07.09-23.47.25:569][  0]MapCheck: New page: Map Check
-[2019.07.09-23.47.25:569][  0]LightingResults: New page: Lighting Build
-[2019.07.09-23.47.25:624][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
-[2019.07.09-23.48.11:102][  0]LogTexture: Display: Building textures: Credits1 (BGRA8, 1795X3000)
-[2019.07.09-23.48.11:103][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Ability...
-[2019.07.09-23.48.11:773][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 126286 while cooking SoundWave /Game/_MyContent/Assets/Sounds/Ability.Ability.
-[2019.07.09-23.48.12:147][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Punch...
-[2019.07.09-23.48.12:164][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 32640 while cooking SoundWave /Game/_MyContent/Assets/Sounds/Punch.Punch.
-[2019.07.09-23.48.15:037][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Sprinting...
-[2019.07.09-23.48.15:071][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 187062 while cooking SoundWave /Game/_MyContent/Assets/Sounds/Sprinting.Sprinting.
-[2019.07.09-23.48.15:140][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Jump...
-[2019.07.09-23.48.15:156][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 23852 while cooking SoundWave /Game/_MyContent/Assets/Sounds/Jump.Jump.
-[2019.07.09-23.48.15:158][  0]LogAIModule: Creating AISystem for world Menu
-[2019.07.09-23.48.15:159][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.07.09-23.48.15:213][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
-[2019.07.09-23.48.15:213][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.07.09-23.48.15:214][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.744ms to complete.
-[2019.07.09-23.48.15:214][  0]LogFileHelpers: Loading map 'Menu' took 49.869
-[2019.07.09-23.48.19:254][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.09-23.48.19:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.09-23.48.19:402][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.09-23.48.19:412][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.09-23.48.19:957][  0]LogCollectionManager: Loaded 0 collections in 0.004718 seconds
-[2019.07.09-23.48.21:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Collections/' took 0.01s
-[2019.07.09-23.48.21:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/Developers/RadioRentals/Collections/' took 0.01s
-[2019.07.09-23.48.21:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/Collections/' took 0.01s
-[2019.07.09-23.48.21:187][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.07.09-23.48.21:322][  0]LogContentBrowser: Native class hierarchy populated in 0.0661 seconds. Added 2732 classes and 659 folders.
-[2019.07.09-23.48.21:809][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.07.09-23.48.22:336][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.22:649][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.22:687][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.22:741][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.22:856][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.22:954][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:055][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:185][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:520][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.23:938][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:080][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:120][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:180][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:387][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:450][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:503][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:526][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.24:561][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.09-23.48.30:053][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.07.09-23.48.30:824][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.07.09-23.48.37:875][  0]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.07.09-23.48.37:948][  0]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.07.09-23.48.38:466][  0]LogSlate: Took 0.044436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.07.09-23.48.41:710][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.07.09-23.48.48:826][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.07.09-23.48.48:826][  0]LogLoad: (Engine Initialization) Total time: 151.96 seconds
-[2019.07.09-23.48.48:826][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.07.09-23.48.49:529][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.07.09-23.48.50:385][  0]LogSlate: Took 0.132736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.07.09-23.49.48:332][970]LogAssetRegistry: Asset discovery search completed in 160.0111 seconds
-[2019.07.09-23.49.48:347][970]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2019.07.09-23.49.48:348][970]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000296 seconds (updated 0 objects)
-[2019.07.09-23.50.03:483][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.09-23.50.07:954][242]LogSlate: Took 0.000456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.07.09-23.50.07:971][242]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_MyContent/Blueprints/_GameManager._GameManager
-[2019.07.09-23.50.09:929][242]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 121 classes and 0 folders.
-[2019.07.09-23.50.14:997][242]LogSlate: Took 0.039098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.07.09-23.50.16:260][243]LogSlate: Took 0.036748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.07.10-00.00.06:473][  4]BlueprintLog: New page: Compile _GameManager
-[2019.07.10-00.00.07:518][  4]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
-[2019.07.10-00.00.10:287][ 46]LogSlate: Window '_GameManager' being destroyed
-[2019.07.10-00.00.17:012][174]LogBlueprint: Warning: [Compiler BP_Butterfly] Function ' Play Animation ' is unsafe to call in a construction script.
-[2019.07.10-00.00.17:012][174]LogBlueprint: Warning: [Compiler BP_Butterfly] Function ' Set Play Rate ' is unsafe to call in a construction script.
-[2019.07.10-00.00.17:016][174]LogBlueprint: Warning: [Compiler BP_Butterfly] [0840.15] Compile of BP_Butterfly successful, but with 2 Warning(s) [in 35 ms] (/Game/AdvancedVillagePack/Blueprints/BP_Butterfly.BP_Butterfly)
-[2019.07.10-00.00.39:740][174]LogTexture: Display: Building textures: old-grunge-dark-textured-wooden-background-surface-old-brown-wood-texture_7182-333 (BGRA8, 626X417)
-[2019.07.10-00.00.39:740][174]LogMaterial: Display: Missing cached shader map for material T_Landscape_Grass_DH_Mat, compiling. 
-[2019.07.10-00.00.42:321][174]LogAIModule: Creating AISystem for world PlanetofPeaceCraftMap
-[2019.07.10-00.00.45:049][174]LogMaterial: Warning: Material /Engine/VREditor/Devices/Vive/VivePreControllerMaterial.VivePreControllerMaterial needed to have new flag set bUsedWithSkeletalMesh !
-[2019.07.10-00.00.45:055][174]LogMaterial: Display: Missing cached shader map for material VivePreControllerMaterial, compiling. 
-[2019.07.10-00.00.45:151][174]MapCheck: Warning: VivePreControllerMaterial Material /Engine/VREditor/Devices/Vive/VivePreControllerMaterial.VivePreControllerMaterial was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.07.10-00.00.45:735][174]LogAssetEditorManager: Opening Asset editor for World /Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap
-[2019.07.10-00.00.46:116][174]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
-[2019.07.10-00.00.48:799][174]LogShaderCompilers: Display: Shaders left to compile 60
-[2019.07.10-00.00.49:976][174]LogSlate: Window 'Save Content' being destroyed
-[2019.07.10-00.00.50:679][174]LogSavePackage: Moving '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/_GameManagerA0CEE1424D2F9098C73DBA812B2F4AC1.tmp' to '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Blueprints/_GameManager.uasset'
-[2019.07.10-00.00.50:803][174]Cmd: MAP LOAD FILE="../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/PLanetofPeaceCraftMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.07.10-00.00.50:803][174]LightingResults: New page: Lighting Build
-[2019.07.10-00.00.50:812][174]LoadErrors: New page: Loading map: PLanetofPeaceCraftMap.umap
-[2019.07.10-00.00.50:818][174]MapCheck: New page: Map Check
-[2019.07.10-00.00.50:818][174]LightingResults: New page: Lighting Build
-[2019.07.10-00.00.51:055][174]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
-[2019.07.10-00.00.51:713][174]LogShaderCompilers: Display: Shaders left to compile 50
-[2019.07.10-00.00.51:713][174]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_MyContent/Maps/JackLevel) is flushing async loading
-[2019.07.10-00.00.51:714][174]LogStreaming: Display: Flushing async loaders.
-[2019.07.10-00.00.52:204][174]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.07.10-00.00.52:436][174]LogShaderCompilers: Display: Shaders left to compile 40
-[2019.07.10-00.00.52:540][174]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
-[2019.07.10-00.00.52:567][174]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.07.10-00.00.52:568][174]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.06ms to complete.
-[2019.07.10-00.00.52:568][174]LogFileHelpers: Loading map 'PLanetofPeaceCraftMap' took 1.815
-[2019.07.10-00.00.53:848][267]LogShaderCompilers: Display: Shaders left to compile 30
-[2019.07.10-00.00.56:162][511]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.07.10-00.00.57:184][622]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.07.10-00.01.39:742][319]LogTemp: Repeating last play command: Selected Viewport
-[2019.07.10-00.01.39:926][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap:PersistentLevel.PlanetofPeaceCraftMap' with GeneratedClass '/Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap_C' with ClassGeneratedBy '/Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap:PersistentLevel.PlanetofPeaceCraftMap'
-[2019.07.10-00.01.39:926][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
-[2019.07.10-00.01.39:989][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.10-00.01.40:227][319]PIE: New page: PIE session: PLanetofPeaceCraftMap (10 Jul 2019 8:01:39 pm)
-[2019.07.10-00.01.40:953][319]LogPlayLevel: Creating play world package: /Game/_MyContent/Maps/UEDPIE_0_PLanetofPeaceCraftMap
-[2019.07.10-00.01.41:227][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.272976s)
-[2019.07.10-00.01.41:250][319]LogAIModule: Creating AISystem for world PlanetofPeaceCraftMap
-[2019.07.10-00.01.41:340][319]LogPlayLevel: PIE: World Init took: (0.113144s)
-[2019.07.10-00.01.41:340][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap to /Game/_MyContent/Maps/UEDPIE_0_PLanetofPeaceCraftMap.PlanetofPeaceCraftMap (0.387386s)
-[2019.07.10-00.01.41:395][319]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2019.07.10-00.01.41:514][319]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.10-00.01.41:653][319]LogInit: FAudioDevice initialized.
-[2019.07.10-00.01.41:899][319]LogLoad: Game class is 'BP_GameMode_C'
-[2019.07.10-00.01.42:034][319]LogWorld: Bringing World /Game/_MyContent/Maps/UEDPIE_0_PLanetofPeaceCraftMap.PlanetofPeaceCraftMap up for play (max tick rate 0) at 2019.07.10-10.01.42
-[2019.07.10-00.01.42:444][319]LogWorld: Bringing up level for play took: 0.450818
-[2019.07.10-00.01.42:638][319]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
-[2019.07.10-00.01.42:665][319]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
-[2019.07.10-00.01.42:666][319]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2019.07.10-00.01.42:992][319]PIE: Play in editor start time for /Game/_MyContent/Maps/UEDPIE_0_PLanetofPeaceCraftMap 2.785
-[2019.07.10-00.01.42:993][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap:PersistentLevel.PlanetofPeaceCraftMap' with GeneratedClass '/Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap_C' with ClassGeneratedBy '/Game/_MyContent/Maps/PLanetofPeaceCraftMap.PlanetofPeaceCraftMap:PersistentLevel.PlanetofPeaceCraftMap'
-[2019.07.10-00.01.42:993][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel' with GeneratedClass '/Game/_MyContent/Maps/JackLevel.JackLevel_C' with ClassGeneratedBy '/Game/_MyContent/Maps/JackLevel.JackLevel:PersistentLevel.JackLevel'
-[2019.07.10-00.01.43:273][319]LogAudio: Warning: Detected orphaned looping sound 'MainBackgroundMusic'.
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.07.10-01.09.44:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.10-01.09.44:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.07.10-01.09.44:161][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.07.10-01.09.44:171][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:171][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.10-01.09.44:171][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.10-01.09.44:171][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.10-01.09.44:172][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.10-01.09.44:173][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.10-01.09.44:173][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.10-01.09.44:173][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.10-01.09.44:190][  0]LogHAL: Display: Platform has ~ 8 GB [8472207360 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.07.10-01.09.44:190][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.10-01.09.44:190][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.10-01.09.44:190][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.10-01.09.44:190][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.10-01.09.44:190][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.10-01.09.44:191][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Scalability.ini]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.07.10-01.09.44:192][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Config/Windows/Engine.ini]
+[2019.07.10-01.09.44:192][  0]LogInit: Computer: DESKTOP-SNPC36S
+[2019.07.10-01.09.44:192][  0]LogInit: User: RadioRentals
+[2019.07.10-01.09.44:192][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.10-01.09.44:192][  0]LogInit: High frequency timer resolution =1.851192 MHz
+[2019.07.10-01.09.44:193][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.07.10-01.09.44:193][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.10-01.09.44:193][  0]LogMemory: Process Physical Memory: 96.35 MB used, 96.35 MB peak
+[2019.07.10-01.09.44:193][  0]LogMemory: Process Virtual Memory: 83.96 MB used, 83.96 MB peak
+[2019.07.10-01.09.44:193][  0]LogMemory: Physical Memory: 5163.17 MB used,  2916.55 MB free, 8079.73 MB total
+[2019.07.10-01.09.44:193][  0]LogMemory: Virtual Memory: 4641.87 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.07.10-01.09.44:296][  0]LogInit: Using OS detected language (en-US).
+[2019.07.10-01.09.44:296][  0]LogInit: Using OS detected locale (en-AU).
+[2019.07.10-01.09.44:299][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.10-01.09.44:593][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.10-01.09.44:708][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.10-01.09.44:708][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.10-01.09.45:236][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.10-01.09.45:236][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.10-01.09.45:254][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.07.10-01.09.45:254][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.07.10-01.09.45:261][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.10-01.09.45:261][  0]LogD3D11RHI:       0/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.10-01.09.45:261][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.10-01.09.45:283][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.10-01.09.45:283][  0]LogD3D11RHI:     GPU DeviceId: 0x412 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.10-01.09.45:283][  0]LogWindows: EnumDisplayDevices:
+[2019.07.10-01.09.45:285][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.07.10-01.09.45:293][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.07.10-01.09.45:299][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2019.07.10-01.09.45:299][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2019.07.10-01.09.45:299][  0]LogD3D11RHI:   Driver Version: 20.19.15.4703 (internal:20.19.15.4703, unified:20.19.15.4703)
+[2019.07.10-01.09.45:299][  0]LogD3D11RHI:      Driver Date: 6-9-2017
+[2019.07.10-01.09.45:299][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2019.07.10-01.09.45:314][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.10-01.09.45:320][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.10-01.09.45:320][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.10-01.09.45:320][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.10-01.09.45:324][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2019.07.10-01.09.46:880][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.07.10-01.09.46:913][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.07.10-01.09.46:945][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.07.10-01.09.46:978][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.07.10-01.09.47:011][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.07.10-01.09.47:043][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.07.10-01.09.47:075][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.07.10-01.09.47:106][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.07.10-01.09.47:123][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.07.10-01.09.47:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.07.10-01.09.47:300][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.07.10-01.09.47:376][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.07.10-01.09.47:376][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.07.10-01.09.47:421][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.07.10-01.09.47:421][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.07.10-01.09.47:445][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.07.10-01.09.47:469][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.07.10-01.09.47:493][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.07.10-01.09.47:520][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.07.10-01.09.47:608][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.07.10-01.09.47:608][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.07.10-01.09.47:608][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.10-01.09.47:633][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.07.10-01.09.47:807][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Intermediate/Shaders/WorkingDirectory/114416/).
+[2019.07.10-01.09.47:808][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Radio Rentals/AppData/Local/Temp/UnrealShaderWorkingDir/2A8CE04B48E59FD39022C4B0CD56D303/'.
+[2019.07.10-01.09.47:815][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.10-01.09.47:815][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.10-01.09.47:815][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.10-01.09.48:729][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.10-01.09.48:848][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/Radio Rentals/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.10-01.09.48:848][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Radio Rentals/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.07.10-01.09.48:848][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.10-01.09.48:848][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.10-01.09.48:848][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.10-01.09.48:848][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.10-01.09.48:868][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.10-01.09.48:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.10-01.09.48:868][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.07.10-01.09.48:882][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Radio Rentals/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.10-01.09.48:882][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.10-01.09.48:882][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.10-01.09.48:916][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.10-01.09.48:917][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.10-01.09.48:918][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.10-01.09.49:074][  0]LogAssetRegistry: FAssetRegistry took 0.0459 seconds to start up
+[2019.07.10-01.09.49:862][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.10-01.09.50:167][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.10-01.09.50:167][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.07.10-01.09.50:167][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.10-01.09.50:167][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.10-01.09.50:167][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.10-01.09.50:190][  0]LogNetVersion: PlanetOfPeacecraft1 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 299048392)
+[2019.07.10-01.09.50:983][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.069856 seconds
+[2019.07.10-01.09.50:994][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.07.10-01.09.50:995][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.07.10-01.09.50:995][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.10-01.09.53:010][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.10-01.09.53:026][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.10-01.09.53:229][  0]SourceControl: Source control is disabled
+[2019.07.10-01.09.53:232][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:232][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.07.10-01.09.53:234][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:234][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.07.10-01.09.53:236][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:236][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.07.10-01.09.53:238][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:238][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.07.10-01.09.53:240][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:240][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.07.10-01.09.53:242][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:242][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.07.10-01.09.53:244][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:244][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.07.10-01.09.53:252][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:253][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.07.10-01.09.53:255][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:255][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.07.10-01.09.53:257][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:257][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.07.10-01.09.53:258][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:258][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.07.10-01.09.53:260][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:260][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.07.10-01.09.53:262][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:262][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.07.10-01.09.53:264][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:264][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.07.10-01.09.53:271][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:271][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.07.10-01.09.53:273][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:273][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.07.10-01.09.53:275][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:275][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.07.10-01.09.53:276][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:276][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.07.10-01.09.53:278][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:278][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.07.10-01.09.53:280][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:280][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.07.10-01.09.53:282][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.53:282][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.07.10-01.09.53:589][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.10-01.09.54:056][  0]LogOcInput: OculusInput pre-init called
+[2019.07.10-01.09.55:570][  0]LogEngine: Initializing Engine...
+[2019.07.10-01.09.55:573][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.10-01.09.55:575][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.07.10-01.09.56:068][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.10-01.09.56:122][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.10-01.09.56:252][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.10-01.09.56:668][  0]LogInit: FAudioDevice initialized.
+[2019.07.10-01.09.56:668][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.10-01.09.56:916][  0]LogDerivedDataCache: Saved boot cache 0.25s 71MB C:/Users/Radio Rentals/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.10-01.09.56:929][  0]LogInit: Texture streaming: Enabled
+[2019.07.10-01.09.57:006][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.10-01.09.57:071][  0]LogInit: Transaction tracking system initialized
+[2019.07.10-01.09.57:150][  0]BlueprintLog: New page: Editor Load
+[2019.07.10-01.09.57:398][  0]LocalizationService: Localization service is disabled
+[2019.07.10-01.09.58:110][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.10-01.09.58:110][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.10-01.09.58:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/' took 0.11s
+[2019.07.10-01.09.58:568][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.58:568][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.07.10-01.09.58:569][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.58:570][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.07.10-01.09.58:571][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.58:571][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.07.10-01.09.58:573][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.58:573][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.07.10-01.09.58:575][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.58:575][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.07.10-01.09.58:576][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.58:576][  0]LogWindows: Warning: URL: C:\Users\Radio Rentals\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.07.10-01.09.58:578][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.07.10-01.09.58:578][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.07.10-01.09.58:578][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.10-01.09.58:580][  0]LightingResults: New page: Lighting Build
+[2019.07.10-01.09.58:587][  0]MapCheck: New page: Map Check
+[2019.07.10-01.09.58:587][  0]LightingResults: New page: Lighting Build
+[2019.07.10-01.09.58:671][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2019.07.10-01.10.00:807][  0]LogAIModule: Creating AISystem for world Menu
+[2019.07.10-01.10.00:808][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.10-01.10.00:860][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2019.07.10-01.10.00:860][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.10-01.10.00:861][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.59ms to complete.
+[2019.07.10-01.10.00:861][  0]LogFileHelpers: Loading map 'Menu' took 2.283
+[2019.07.10-01.10.01:056][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-01.10.01:067][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-01.10.01:081][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-01.10.01:092][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-01.10.01:110][  0]LogCollectionManager: Loaded 0 collections in 0.005591 seconds
+[2019.07.10-01.10.01:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Collections/' took 0.01s
+[2019.07.10-01.10.01:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/Developers/RadioRentals/Collections/' took 0.01s
+[2019.07.10-01.10.01:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/Collections/' took 0.01s
+[2019.07.10-01.10.01:157][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.10-01.10.01:171][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2732 classes and 659 folders.
+[2019.07.10-01.10.01:188][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.07.10-01.10.01:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:194][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:196][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:198][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:200][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:203][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:206][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:207][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:209][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:212][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:213][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:215][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:217][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:219][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:221][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:222][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:224][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:226][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:227][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:229][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:230][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:232][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:233][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:236][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:237][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:239][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.10-01.10.01:365][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.07.10-01.10.01:378][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.07.10-01.10.01:512][  0]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.10-01.10.01:515][  0]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.10-01.10.01:522][  0]LogSlate: Took 0.000421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.10-01.10.01:682][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.07.10-01.10.02:302][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.07.10-01.10.02:302][  0]LogLoad: (Engine Initialization) Total time: 24.02 seconds
+[2019.07.10-01.10.02:302][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.10-01.10.02:312][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.10-01.10.02:363][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.10-01.10.02:415][  0]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.10-01.10.02:487][  1]LogAssetRegistry: Asset discovery search completed in 13.4364 seconds
+[2019.07.10-01.10.02:491][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.07.10-01.10.02:491][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2019.07.10-01.10.03:444][  8]LogSlate: Took 0.001044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.10-01.10.03:709][ 20]LogTemp: IOS device listing is disabled (to many failed attempts)!
+[2019.07.10-01.10.05:853][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.10-01.10.09:334][148]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_MyContent/Blueprints/_GameManager._GameManager
+[2019.07.10-01.10.09:861][148]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 121 classes and 0 folders.
+[2019.07.10-01.10.11:222][148]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.10-01.10.11:421][149]LogSlate: Took 0.001065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.10-01.15.09:580][324]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-01.15.25:661][633]LogSlate: Window '_GameManager' being destroyed
+[2019.07.10-01.15.29:056][722]LogMaterial: Warning: Material /Engine/VREditor/Devices/Vive/VivePreControllerMaterial.VivePreControllerMaterial needed to have new flag set bUsedWithSkeletalMesh !
+[2019.07.10-01.15.29:061][722]LogMaterial: Display: Missing cached shader map for material VivePreControllerMaterial, compiling. 
+[2019.07.10-01.15.29:170][722]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.07.10-01.15.29:171][722]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.10-01.15.29:171][722]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.10-01.15.30:576][733]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_MyContent/Maps/Menu.Menu:PersistentLevel.Menu
+[2019.07.10-01.15.57:315][133]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.10-01.15.58:727][151]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.10-01.16.00:114][179]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.10-01.18.28:158][960]BlueprintLog: New page: Compile _GameManager
+[2019.07.10-01.18.28:312][960]LogBlueprint: Error: [Compiler _GameManager] This blueprint (self) is not a AmbientSound, therefore ' Target ' must have a connection.
+[2019.07.10-01.18.28:312][960]LogBlueprint: Error: [Compiler _GameManager] This blueprint (self) is not a AmbientSound, therefore ' Target ' must have a connection.
+[2019.07.10-01.18.28:318][960]LogBlueprint: Error: [Compiler _GameManager] Variable node  Get AudioComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.07.10-01.18.28:318][960]LogBlueprint: Error: [Compiler _GameManager] Variable node  Get AudioComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.07.10-01.18.28:747][960]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2019.07.10-01.18.28:784][960]LogBlueprint: Warning: [Compiler _GameManager] [0530.51] Compile of _GameManager failed. 4 Fatal Issue(s) 0 Warning(s) [in 625 ms] (/Game/_MyContent/Blueprints/_GameManager._GameManager)
+[2019.07.10-01.20.07:561][372]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2019.07.10-01.20.08:190][372]LogSavePackage: Moving '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Menu_Auto124A01ADF494400382F45A7AF50A4C3E9.tmp' to '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Autosaves/Game/_MyContent/Maps/Menu_Auto1.umap'
+[2019.07.10-01.20.08:195][372]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_MyContent/Maps/Menu' took 0.696
+[2019.07.10-01.20.08:195][372]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.696
+[2019.07.10-01.20.08:199][372]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_MyContent/Blueprints/_GameManager] ([1] browsable assets)...
+[2019.07.10-01.20.08:199][372]OBJ SavePackage: Finished generating thumbnails for package [/Game/_MyContent/Blueprints/_GameManager]
+[2019.07.10-01.20.08:334][372]LogSavePackage: Moving '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/_GameManager_Auto17E31651F4580DCB7344C78A496816914.tmp' to '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Autosaves/Game/_MyContent/Blueprints/_GameManager_Auto1.uasset'
+[2019.07.10-01.20.08:370][372]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/VREditor/Devices/Vive/VivePreControllerMaterial_Inst] ([1] browsable assets)...
+[2019.07.10-01.20.08:499][372]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Engine/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.VivePreControllerMaterial_Inst]
+[2019.07.10-01.20.08:499][372]OBJ SavePackage: Finished generating thumbnails for package [/Engine/VREditor/Devices/Vive/VivePreControllerMaterial_Inst]
+[2019.07.10-01.20.08:674][372]LogSavePackage: Moving '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/VivePreControllerMaterial_Inst_A03F4A78146B18D0981DDF2A4F791C759.tmp' to '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Autosaves/Engine/VREditor/Devices/Vive/VivePreControllerMaterial_Inst_Auto1.uasset'
+[2019.07.10-01.20.08:678][372]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/VREditor/Devices/Vive/VivePreControllerMaterial] ([1] browsable assets)...
+[2019.07.10-01.20.08:759][372]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/VREditor/Devices/Vive/VivePreControllerMaterial.VivePreControllerMaterial]
+[2019.07.10-01.20.08:759][372]OBJ SavePackage: Finished generating thumbnails for package [/Engine/VREditor/Devices/Vive/VivePreControllerMaterial]
+[2019.07.10-01.20.08:871][372]LogSavePackage: Moving '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/VivePreControllerMaterial_Auto1CDB380794A6E7B28E3F9B1AF30785D6E.tmp' to '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/Autosaves/Engine/VREditor/Devices/Vive/VivePreControllerMaterial_Auto1.uasset'
+[2019.07.10-01.20.08:874][372]LogFileHelpers: Auto-saving content packages took 0.676
+[2019.07.10-01.20.54:729][151]BlueprintLog: New page: Compile Menu
+[2019.07.10-01.20.54:996][151]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.07.10-01.35.56:414][492]BlueprintLog: New page: Compile _GameManager
+[2019.07.10-01.35.56:782][492]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
+[2019.07.10-01.36.03:670][875]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2019.07.10-01.36.19:681][875]LogSlate: Window 'Save Content' being destroyed
+[2019.07.10-01.36.19:864][875]LogSavePackage: Moving '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Saved/_GameManager475D6AFE43E673C52A2606B9098E8BDA.tmp' to '../../../../../../Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/_MyContent/Blueprints/_GameManager.uasset'
+[2019.07.10-01.36.20:090][875]LogSlate: Window 'PlanetOfPeacecraft1 - Unreal Editor' being destroyed
+[2019.07.10-01.36.20:414][876]Cmd: QUIT_EDITOR
+[2019.07.10-01.36.20:718][876]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.10-01.36.20:753][876]LogExit: Preparing to exit.
+[2019.07.10-01.36.21:162][876]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Radio Rentals/Documents/GitHub/gameproduction/PlanetOfPeacecraft1/Content/', and we were unable to create a new request.
+[2019.07.10-01.36.21:247][876]LogExit: Editor shut down
+[2019.07.10-01.36.21:247][876]LogExit: Transaction tracking system shut down
+[2019.07.10-01.36.21:644][876]LogExit: Object subsystem successfully closed.
+[2019.07.10-01.36.21:655][876]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.10-01.36.21:672][876]LogD3D11RHI: Shutdown
+[2019.07.10-01.36.21:672][876]LogD3D11RHI: CleanupD3DDevice
+[2019.07.10-01.36.21:674][876]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.10-01.36.21:674][876]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.10-01.36.21:675][876]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.10-01.36.21:675][876]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.10-01.36.21:675][876]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.10-01.36.21:675][876]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.10-01.36.21:955][876]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.10-01.36.22:100][876]LogModuleManager: Shutting down and abandoning module BlueprintGraph (644)
+[2019.07.10-01.36.22:100][876]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (642)
+[2019.07.10-01.36.22:100][876]LogModuleManager: Shutting down and abandoning module SceneOutliner (640)
+[2019.07.10-01.36.22:100][876]LogModuleManager: Shutting down and abandoning module AddContentDialog (638)
+[2019.07.10-01.36.22:101][876]LogModuleManager: Shutting down and abandoning module WidgetCarousel (637)
+[2019.07.10-01.36.22:101][876]LogModuleManager: Shutting down and abandoning module EditorWidgets (634)
+[2019.07.10-01.36.22:101][876]LogModuleManager: Shutting down and abandoning module CollectionManager (632)
+[2019.07.10-01.36.22:101][876]LogModuleManager: Shutting down and abandoning module StatsViewer (630)
+[2019.07.10-01.36.22:101][876]LogModuleManager: Shutting down and abandoning module FoliageEdit (628)
+[2019.07.10-01.36.22:101][876]LogModuleManager: Shutting down and abandoning module LandscapeEditor (626)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module MeshPaintMode (624)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (622)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module ActorPickerMode (620)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module GeometryMode (618)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module TextureAlignMode (616)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module BspMode (614)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (612)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (610)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module AutomationWorker (608)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module OculusMR (606)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (604)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (602)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (600)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module PlacementMode (599)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module MaterialEditor (598)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (594)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (592)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (590)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (588)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (586)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module WebMMedia (584)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (582)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (580)
+[2019.07.10-01.36.22:102][876]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (576)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (574)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (572)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (570)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (568)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (566)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (564)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (562)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (560)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (558)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (556)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module CharacterAI (554)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module SmartSnapping (552)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module SessionServices (550)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module MeshPaint (548)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module ViewportSnapping (546)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module ViewportInteraction (544)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module ClothPainter (542)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (541)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module LogVisualizer (538)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module IntroTutorials (536)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (535)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (532)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (530)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (528)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (526)
+[2019.07.10-01.36.22:103][876]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (525)
+[2019.07.10-01.36.22:446][876]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (522)
+[2019.07.10-01.36.22:446][876]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (520)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (518)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (516)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (514)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module InputBindingEditor (512)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module MergeActors (510)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (508)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module LocalizationService (507)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module HardwareTargeting (504)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (502)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module UndoHistory (500)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module XmlParser (498)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module Blutility (496)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (494)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (493)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (490)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module SettingsEditor (488)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module ProjectLauncher (486)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module SessionFrontend (484)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module ProfilerClient (482)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module DeviceManager (480)
+[2019.07.10-01.36.22:447][876]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (479)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module AutomationController (476)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module AutomationWindow (474)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module Layers (472)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (470)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module DetailCustomizations (468)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module PackagesDialog (466)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (464)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module Persona (462)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
+[2019.07.10-01.36.22:512][876]LogModuleManager: Shutting down and abandoning module Kismet (456)
+[2019.07.10-01.36.22:519][876]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
+[2019.07.10-01.36.22:519][876]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module Toolbox (450)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2019.07.10-01.36.22:520][876]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (408)
+[2019.07.10-01.36.22:524][876]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module OculusEditor (396)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (368)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (366)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (364)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (352)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module AppleImageUtils (350)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module AlembicImporter (348)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module AlembicLibrary (347)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module GeometryCache (346)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (345)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module VariantManagerContent (340)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (338)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (336)
+[2019.07.10-01.36.22:600][876]LogModuleManager: Shutting down and abandoning module PluginBrowser (334)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (332)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (330)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (308)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (306)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (304)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.07.10-01.36.22:601][876]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.07.10-01.36.22:702][876]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.07.10-01.36.22:802][876]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.07.10-01.36.22:802][876]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.07.10-01.36.22:802][876]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.07.10-01.36.22:802][876]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.07.10-01.36.22:802][876]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.07.10-01.36.22:826][876]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.10-01.36.22:826][876]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.07.10-01.36.22:826][876]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.07.10-01.36.22:826][876]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.07.10-01.36.22:826][876]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.07.10-01.36.22:826][876]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.07.10-01.36.22:826][876]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.07.10-01.36.22:826][876]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.07.10-01.36.22:826][876]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.07.10-01.36.22:827][876]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.07.10-01.36.22:827][876]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.07.10-01.36.22:827][876]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.07.10-01.36.22:827][876]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.07.10-01.36.22:828][876]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.07.10-01.36.22:829][876]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.07.10-01.36.22:829][876]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.07.10-01.36.22:829][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.07.10-01.36.22:829][876]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.07.10-01.36.22:830][876]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.07.10-01.36.22:832][876]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.07.10-01.36.22:833][876]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.07.10-01.36.22:833][876]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.07.10-01.36.22:833][876]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.07.10-01.36.22:833][876]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.07.10-01.36.22:833][876]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.07.10-01.36.22:863][876]LogDerivedDataCache: Shutdown
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.07.10-01.36.22:863][876]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.07.10-01.36.22:864][876]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.07.10-01.36.22:864][876]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.07.10-01.36.22:864][876]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.07.10-01.36.22:864][876]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.07.10-01.36.22:865][876]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.07.10-01.36.22:865][876]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.07.10-01.36.22:865][876]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.07.10-01.36.22:866][876]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.07.10-01.36.22:866][876]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.07.10-01.36.22:866][876]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.07.10-01.36.22:866][876]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.07.10-01.36.22:866][876]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.07.10-01.36.22:872][876]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.07.10-01.36.22:872][876]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.07.10-01.36.22:873][876]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.07.10-01.36.22:873][876]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.07.10-01.36.22:892][876]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.07.10-01.36.22:892][876]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.07.10-01.36.22:892][876]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.07.10-01.36.22:892][876]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.07.10-01.36.22:892][876]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.07.10-01.36.22:892][876]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.07.10-01.36.22:892][876]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.07.10-01.36.22:892][876]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.07.10-01.36.22:893][876]LogHMD: Freeing OpenVRDLLHandle.
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.07.10-01.36.22:893][876]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.07.10-01.36.22:894][876]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.07.10-01.36.22:894][876]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.07.10-01.36.22:914][876]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.07.10-01.36.22:914][876]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.10-01.36.22:914][876]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5FA3BD62-4FC8-2993-A252-DE8E325C9DE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.2-6574378%2B%2B%2BUE4%2BRelease-4.22&UserID=a1db79b143731e744f36d5977bc8ad3e%7C98bc2dd6fe0c4e729b44a7b88f9a9af7%7Cc5b00ac1-c804-4b34-bd2d-6d930392a8d3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.10-01.36.22:948][876]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.07.10-01.36.22:951][876]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.07.10-01.36.22:954][876]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.07.10-01.36.22:960][876]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.07.10-01.36.22:960][876]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.07.10-01.36.22:962][876]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.07.10-01.36.22:962][876]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.07.10-01.36.22:962][876]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.07.10-01.36.22:963][876]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.07.10-01.36.22:963][876]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.07.10-01.36.22:963][876]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.07.10-01.36.22:963][876]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.07.10-01.36.22:963][876]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.07.10-01.36.22:963][876]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.07.10-01.36.22:963][876]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.07.10-01.36.22:963][876]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.07.10-01.36.22:964][876]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.07.10-01.36.22:964][876]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.07.10-01.36.22:964][876]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.07.10-01.36.22:964][876]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.07.10-01.36.22:964][876]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.07.10-01.36.22:964][876]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.07.10-01.36.22:964][876]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.07.10-01.36.22:964][876]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.07.10-01.36.22:971][876]LogExit: Exiting.
+[2019.07.10-01.36.23:135][876]Log file closed, 07/10/19 11:36:23
